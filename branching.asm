@@ -15,5 +15,5 @@ lazy_asm:
 	test sil, sil
 	sete sil
 	movzx rsi, sil
-	and rax, rax
+	and rax, rsi
 	ret
